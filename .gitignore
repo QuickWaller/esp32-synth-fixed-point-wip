@@ -88,3 +88,8 @@ build.ninja
 *.pro.user
 
 .idea/
+/.pio
+/.pio
+/.pio/build
+/.pio/build/denky32
+.pio/build/project.checksum
