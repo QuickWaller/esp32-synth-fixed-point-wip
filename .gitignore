@@ -93,3 +93,6 @@ build.ninja
 /.pio/build
 /.pio/build/denky32
 .pio/build/project.checksum
+.pio/build/denky32/idedata.json
+.pio/build/project.checksum
+.vscode/c_cpp_properties.json
