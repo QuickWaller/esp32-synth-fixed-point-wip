@@ -1,32 +1,90 @@
-# Prerequisites
-*.d
+# ======================
+# C++ general ignores
+# ======================
 
-# Compiled Object files
-*.slo
-*.lo
+# Object files
 *.o
 *.obj
+*.lo
+*.la
+*.al
+*.libs
+*.dll
+*.exe
+*.out
+*.app
+*.so
+*.dylib
 
 # Precompiled Headers
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# Static libraries
 *.lib
+*.a
 
-# Executables
-*.exe
-*.out
-*.app
+# ======================
+# PlatformIO
+# ======================
+.pio/
+.env/
+.platformio/
+.pioenvs/
+.pio/libdeps/
+.pio/build/
+
+# PlatformIO project checksum files
+.projectchecksum
+.projectchecksum.json
+
+# ======================
+# VSCode
+# ======================
+.vscode/
+.vscode/*
+
+# VSCode extensions folder
+.extensions/
+
+# VSCode workspace storage
+.history/
+
+# ======================
+# IDE / Editor files
+# ======================
+# IDE data files (e.g. Eclipse, JetBrains, others)
+idedata.json
+
+# ======================
+# Misc / OS
+# ======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# ======================
+# Others (optional)
+# ======================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+build.ninja
+
+*.pro.user
+
+.idea/
