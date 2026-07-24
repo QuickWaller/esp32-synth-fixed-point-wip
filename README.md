@@ -1,8 +1,9 @@
-# Project Synth Rework 🚧 — work in progress
+# ESP32 Synth — Fixed-Point Rework 🚧 — work in progress
 
-A planned rework of [ESP32-Project-Synth](https://github.com/QuickWaller/ESP32-Project-Synth),
-this time using **fixed-point arithmetic** instead of floating point for
-the audio-generation path.
+A planned rework of [esp32-fm-synth](https://github.com/QuickWaller/esp32-fm-synth)
+(the working instrument — start there if you want to see something that
+actually plays), this time using **fixed-point arithmetic** instead of
+floating point for the audio-generation path.
 
 **Current state: early and incomplete.** This is not a working synth
 yet — most of the original project (oscillators, voices, Bluetooth
